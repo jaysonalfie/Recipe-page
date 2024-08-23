@@ -4,30 +4,67 @@ Mobile 375px
 Desktop 1440px
 */
 
- :root {
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone100: hsl(30, 54%, 90%);
+  --stone150: hsl(30, 18%, 87%);
+  --stone600: hsl(30, 10%, 34%);
+  --stone900: hsl(24, 5%, 18%);
 
-   --white:hsl(0,0%,100%);
-   --stone100:hsl(30,54%,90%);
-   --stone150:hsl(30,18%,87%);
-   --stone600:hsl(30,10%,34%);
-   --stone900:hsl(24,5%,18%);
+  --brown800: hsl(14, 45%, 36%);
 
-
-   --brown800:hsl(14,45%,36%);
-
-   --rose800:hsl(332, 51%, 32%);
-   --rose50:hsl(332, 100%, 98%);
-
- }
-
- /*Universal selector*/
- * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  --rose800: hsl(332, 51%, 32%);
+  --rose50: hsl(332, 100%, 98%);
 }
 
+/*Universal selector*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
 
+/*Restores the original styles of the lists*/
+ul,
+ol {
+  list-style: initial;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+/*Ordered lists to display numbers*/
+ol {
+  list-style-type: decimal;
+}
 
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.main-container {
+  border: 1px solid gray;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  margin: auto;
+}
 
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding-top: 0.8rem;
+}
+
+.header img{
+    border-radius: 0.8rem;
+    object-fit: cover;
+    width: 600px;
+    height: 500px;
+}
