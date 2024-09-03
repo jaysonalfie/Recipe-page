@@ -102,3 +102,48 @@ ol {
   color: var(--brown);
 }
 
+/*Ingredients section*/
+.ingredients h2,
+.instructions h2,
+.nutrition-section h2{
+  font-family: 'Young Serif',serif;
+  letter-spacing: 2px;
+  color:var(--brown800);
+}
+.ingredients, .instructions , .nutrition-section{
+  color: var(--brown);
+}
+
+.prep-details, .ingredients{
+  margin-top: 1.4rem;
+}
+
+/*Lists part*/
+ul li,
+ol li {
+  padding-left: 1rem;
+}
+
+
+/*Horizontal orientation*/
+.ingredients, .instructions{
+  border-bottom: 1px solid var(--light-grey);
+  padding:2rem;
+}
+
+/*Instruction*/
+
+
+.instructions ol li span{
+  font-weight: 800;
+  color: var(--brown);
+}
+
+/*attribution*/
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+ }
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
