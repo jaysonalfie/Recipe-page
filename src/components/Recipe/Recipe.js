@@ -7,20 +7,21 @@ const Recipe = () => {
   return (
     <div className="body">
       <div className="main-container">
+      <img src={Omlette} alt="omlette" />
         <div className="header">
-          <img src={Omlette} alt="omlette" />
-          <h1> Simple Omelette Recipe</h1>
-          <p>
+          
+          <h1 className="title"> Simple Omelette Recipe</h1>
+          <p className="paragraph">
             An easy and quick dish, perfect for any meal. This classic omelette
-            combines beaten eggs cooked to perfection, optionally filled with
+            combines beaten eggs <br/>cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
           <div className="prep-details">
             <h2>Preparation time</h2>
             <ul>
-              <li> Total: Approximately 10 minutes</li>
-              <li> Preparation: 5 minutes</li>
-              <li> Cooking: 5 minutes</li>
+              <li><span>Total</span> : Approximately 10 minutes</li>
+              <li><span>Preparation</span>: 5 minutes</li>
+              <li><span>Cooking</span> : 5 minutes</li>
             </ul>
           </div>
         </div>

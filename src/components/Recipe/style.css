@@ -5,16 +5,21 @@ Desktop 1440px
 */
 
 :root {
-  --white: hsl(0, 0%, 100%);
-  --stone100: hsl(30, 54%, 90%);
-  --stone150: hsl(30, 18%, 87%);
-  --stone600: hsl(30, 10%, 34%);
-  --stone900: hsl(24, 5%, 18%);
-
+  /*Primary color*/
   --brown800: hsl(14, 45%, 36%);
-
   --rose800: hsl(332, 51%, 32%);
+
+   /*Neutral color*/
+  --white: hsl(0, 0%, 100%);
   --rose50: hsl(332, 100%, 98%);
+  --eggshell-background-color: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+
+  
+
+
 }
 
 /*Universal selector*/
@@ -38,33 +43,62 @@ ol {
 }
 
 .body {
+  font-family: 'Outift',sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  gap: 2rem;
+  padding: 2rem 2.5rem;
+  background-color:var(--eggshell-background-color);
 }
+/*max width ensure the container does not stretch too wide*/
 .main-container {
-  border: 1px solid gray;
-  padding: 1.25rem;
+  background-color: var(--white);
+  padding: 2.2rem;
   border-radius: 0.5rem;
-  width: 90%;
+  max-width: 48rem;
   margin: auto;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
-    padding-top: 0.8rem;
+/*image will not be wider than the parent conatiner*/
+.main-container img{
+  display: block;
+  max-width: 100%;
+  border-radius: 0.6rem;
 }
 
-.header img{
-    border-radius: 0.8rem;
-    object-fit: cover;
-    width: 600px;
-    height: 500px;
+.header .title{
+  font-family: 'Young Serif',serif;
+  margin-top:1.8rem ;
+  color: var(--dark-charcoal);
 }
+
+.header .paragraph{
+  font-weight: 500;
+  margin-top: 1rem;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  color: var(--brown);
+}
+
+/*Preparation container*/
+.prep-details{
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--rose50);
+  padding: 2.5rem;
+  margin-top: 1.4rem;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+}
+
+.prep-details h2{
+  color:var(--rose800);
+}
+
+.prep-details li span{
+  font-weight: 800;
+  color: var(--brown);
+}
+
