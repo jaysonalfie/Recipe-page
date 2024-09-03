@@ -50,23 +50,23 @@ ol {
   justify-content: center;
   width: 100%;
   gap: 2rem;
-  padding: 2rem 2.5rem;
-  background-color:var(--eggshell-background-color);
+  background-color: transparent;
+
 }
 /*max width ensure the container does not stretch too wide*/
 .main-container {
   background-color: var(--white);
-  padding: 2.2rem;
+  padding: 1rem;
   border-radius: 0.5rem;
-  max-width: 48rem;
+  width: 100%;
   margin: auto;
 }
 
 /*image will not be wider than the parent conatiner*/
 .main-container img{
   display: block;
-  max-width: 100%;
-  border-radius: 0.6rem;
+  width: 100%;
+  
 }
 
 .header .title{
@@ -139,6 +139,28 @@ ol li {
   color: var(--brown);
 }
 
+/*Nutrition*/
+.nutrition-section{
+  margin-top: 1.5rem;
+}
+
+.nutrition-section table{
+  width: 100%;
+  margin: 1.5rem;
+}
+
+th, td{
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--light-grey);
+}
+th {
+  color: var(--brown800);
+}
+.column {
+  font-weight: 800;
+}
+
 /*attribution*/
 .attribution { 
   font-size: 11px; 
@@ -146,4 +168,21 @@ ol li {
  }
 .attribution a { 
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 375px) {
+  body{
+    background-color:var(--eggshell-background-color);
+    padding: 2rem 2.5rem;
+  }
+  .main-container{
+    max-width: 48rem;
+    padding: 2.2rem;
+    margin: auto;
+  }
+  .main-container img{
+    width: auto;
+    max-width: 100%;
+    border-radius: 0.6rem;
+  }
 }
