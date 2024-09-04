@@ -13,7 +13,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 # Overview
 
@@ -24,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 
 ### The challenge
-Creating a recipe page. 
+Creating a recipe page.
 
 ### Screenshot
 
@@ -33,7 +32,7 @@ Creating a recipe page.
 - Live Site URL : [https://recipe-page-five-chi.vercel.app/]
 
 ## My process
-I was able to refresh my knowledge on using React to create the webpage and also tried to look at the mobile approach first as I was implementing the page. Vanilla css was used for styling of the component.
+I was able to refresh my knowledge on using React to create the webpage and also tried to look at the mobile approach first as I was implementing the page. I created a page component that I have used. Vanilla css was used for styling of the component.
 
 
 ### Built with
@@ -44,6 +43,7 @@ I was able to refresh my knowledge on using React to create the webpage and also
 
 ## Resources
 - [MDN Docs](https://developer.mozilla.org/en-US/)
+- [React](https://reactjs.org/)
 
 
 ## Author
