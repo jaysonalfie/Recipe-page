@@ -26,3 +26,21 @@ Creating a recipe page.
 ### Links
 - Solution URL : [https://github.com/jaysonalfie/Recipe-page.git]
 - Live Site URL : [https://recipe-page-five-chi.vercel.app/]
+
+## My process
+I was able to refresh my knowledge on using React to create the webpage and also tried to look at the mobile approach first as I was implementing the page. Vanilla css was used for styling of the component.
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- [React](https://reactjs.org/) - JS library
+
+## Resources
+- [MDN Docs](https://developer.mozilla.org/en-US/)
+
+
+## Author
+- Github - [Jaysonalfie](https://github.com/jaysonalfie)
+- Frontend mentor - [Jaysonalfie](https://www.frontendmentor.io/profile/jaysonalfie)
