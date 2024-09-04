@@ -4,6 +4,10 @@ Mobile 375px
 Desktop 1440px
 */
 
+
+/*-Marker selector selects the marker of a list item
+-The content: counter(list-item) in CSS is used within a ::before or ::markeror ::after pseudo-element to generate and display a custom counter for list items
+*/
 :root {
   /*Primary color*/
   --brown800: hsl(14, 45%, 36%);
