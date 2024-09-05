@@ -7,7 +7,7 @@ const Recipe = () => {
   return (
     <div className="body">
       <div className="main-container">
-      <img src={Omlette} alt="omlette" />
+      <img src={Omlette} alt="An omlette recipe description" />
         <div className="header">
           
           <h1 className="title"> Simple Omelette Recipe</h1>

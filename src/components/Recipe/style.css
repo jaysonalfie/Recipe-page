@@ -38,8 +38,8 @@ Desktop 1440px
 ul,
 ol {
   list-style: initial;
-  margin-left: 15px;
-  padding-left: 10px;
+  margin-left: 0.9375rem;
+  padding-left: 0.625rem;
 }
 /*Ordered lists to display numbers*/
 ol {
